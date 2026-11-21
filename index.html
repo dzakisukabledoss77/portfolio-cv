@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portofolio dan CV pribadi.">
+  <title>Portofolio | Fairuz Dzaki Dwi Syahputra</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Navigasi utama">
+      <a class="logo" href="#home">PORTO<span>.</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Buka menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Beranda</a></li>
+        <li><a href="#about">Tentang</a></li>
+        <li><a href="#education">Pendidikan</a></li>
+        <li><a href="#skills">Keahlian</a></li>
+        <li><a href="#projects">Proyek</a></li>
+        <li><a href="#contact" class="nav-contact">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> SELAMAT DATANG DI PORTOFOLIO SAYA</p>
+          <h1>Halo, saya <span class="gradient-text">Fairuz Dzaki Dwi Syahputra.</span></h1>
+          <h2 class="hero-role">Mahasiswa &amp; <span id="typedRole">Web Enthusiast</span></h2>
+          <p class="hero-description">
+            Saya adalah pribadi yang senang mempelajari teknologi, mengembangkan ide,
+            dan membuat solusi digital melalui pemrograman.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">Lihat Proyek <span>↗</span></a>
+            <a class="button button-outline" href="assets/CV.pdf" download>Unduh CV <span>↓</span></a>
+          </div>
+          <div class="hero-socials">
+            <a href="https://github.com/dzakisukabledoss77" target="_blank" rel="noreferrer">GitHub ↗</a>
+            <a href="mailto:vrzzck@example.com">Email ↗</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="profile-glow"></div>
+          <div class="profile-frame">
+            <!-- Ganti foto-profil.jpg dengan foto Anda di folder assets -->
+            <img src="assets/foto-profil.jpeg" alt="Fairuz Dzaki Dwi Syahputra " onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';">
+            <div class="photo-placeholder"><span><br></span></div>
+          </div>
+          <div class="floating-card card-top"><span class="mini-icon">✦</span><div><strong>Kreatif</strong><small>Terus belajar</small></div></div>
+          <div class="floating-card card-bottom"><span class="mini-icon">⌘</span><div><strong>Problem Solver</strong><small>Berorientasi solusi</small></div></div>
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        </div>
+      </div>
+      <a class="scroll-hint" href="#about">GULIR UNTUK MELIHAT <span>↓</span></a>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">01 / PERKENALAN</p>
+          <h2>Tentang <span class="gradient-text">Saya</span></h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-mark">“</div>
+          <div>
+            <p class="about-lead">Saya percaya bahwa setiap hal besar dimulai dari rasa ingin tahu dan kemauan untuk terus belajar.</p>
+            <p class="muted">Perkenalkan, saya <strong>Fairuz Dzaki Dwi Syahputra</strong>, seorang mahasiswa dari <strong>Teknik Komputer</strong> di <strong>Politeknik Negeri Jember</strong>. Saya memiliki ketertarikan pada bidang teknologi, pemrograman, dan pengembangan aplikasi. Saya senang mengeksplorasi hal baru, bekerja sama dalam tim, serta mengembangkan kemampuan melalui proyek dan pengalaman.</p>
+            <div class="personal-data">
+              <div><span>Nama</span><strong>Fairuz Dzaki Dwi Syahputra</strong></div>
+              <div><span>Domisili</span><strong>Jember, Indonesia</strong></div>
+              <div><span>Email</span><strong>vrzzck@example.com</strong></div>
+              <div><span>Status</span><strong>Mahasiswa</strong></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="education">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">02 / PERJALANAN</p>
+          <h2>Riwayat <span class="gradient-text">Pendidikan</span></h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <span class="timeline-year">2026 – SEKARANG</span>
+            <div class="timeline-content">
+              <h3>Politeknik Negeri Jember</h3>
+              <p class="accent-text">Teknik Komputer</p>
+              <p class="muted">Mahasiswa Jurusan IT Biasa.</p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <span class="timeline-year">2023 – 2026</span>
+            <div class="timeline-content">
+              <h3>SMAN 04 JEMBER</h3>
+              <p class="accent-text">IPA UMUM</p>
+              <p class="muted">Siswa SMA Biasa.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">03 / KEMAMPUAN</p>
+          <h2>Keahlian &amp; <span class="gradient-text">Tools</span></h2>
+          <p class="muted heading-description">Berikut beberapa kemampuan dan perangkat yang sedang saya pelajari atau gunakan.</p>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-card"><span class="skill-symbol">⌨</span><h3>Programming</h3><p>HTML, CSS, JavaScript, C++</p></div>
+          <div class="skill-card"><span class="skill-symbol">▣</span><h3>Development Tools</h3><p>Visual Studio Code, Qt Creator, Arduino IDE</p></div>
+          <div class="skill-card"><span class="skill-symbol">◈</span><h3>Hardware &amp; IoT</h3><p>Arduino, ESP8266, sensor dasar</p></div>
+          <div class="skill-card"><span class="skill-symbol">✧</span><h3>Soft Skills</h3><p>Komunikasi, kerja tim, pemecahan masalah</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="projects">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">04 / HASIL KARYA</p>
+          <h2>Proyek <span class="gradient-text">Pilihan</span></h2>
+          <p class="muted heading-description">Ganti contoh proyek berikut dengan karya yang pernah Anda buat.</p>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-art art-one"><span>01</span><b>IoT</b></div>
+            <div class="project-info"><p class="project-type">INTERNET OF THINGS</p><h3>Monitoring Sensor ESP8266</h3><p class="muted">Contoh proyek pemantauan data sensor menggunakan ESP8266 dan antarmuka aplikasi.</p><div class="tag-list"><span>ESP8266</span><span>Sensor</span><span>C++</span></div></div>
+          </article>
+          <article class="project-card">
+            <div class="project-art art-two"><span>02</span><b>GUI</b></div>
+            <div class="project-info"><p class="project-type">DESKTOP APPLICATION</p><h3>Aplikasi GUI Qt</h3><p class="muted">Contoh aplikasi desktop dengan Qt Widgets untuk menampilkan dan mengelola data.</p><div class="tag-list"><span>C++</span><span>Qt Creator</span><span>UI</span></div></div>
+          </article>
+          <article class="project-card">
+            <div class="project-art art-three"><span>03</span><b>WEB</b></div>
+            <div class="project-info"><p class="project-type">WEB DEVELOPMENT</p><h3>Website Portofolio</h3><p class="muted">Website pribadi yang menampilkan profil, keahlian, proyek, dan informasi kontak.</p><div class="tag-list"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="cv">
+      <div class="container cv-panel">
+        <div><p class="eyebrow">05 / DOKUMEN</p><h2>Ingin mengetahui lebih lanjut?</h2><p class="muted">Unduh CV saya untuk melihat informasi pendidikan, pengalaman, dan kemampuan secara ringkas.</p></div>
+        <a class="button button-primary" href="assets/CV.pdf" download>Unduh CV PDF <span>↓</span></a>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="contact">
+      <div class="container contact-grid">
+        <div><p class="eyebrow">06 / HUBUNGI SAYA</p><h2>Mari terhubung<br><span class="gradient-text">bersama.</span></h2><p class="muted">Terbuka untuk diskusi, kolaborasi, dan kesempatan belajar bersama.</p></div>
+        <div class="contact-list">
+          <a href="mailto:vrrzck@example.com"><span>Email</span><strong>emailanda@example.com ↗</strong></a>
+          <a href="https://github.com/dzakisukabledoss77" target="_blank" rel="noreferrer"><span>GitHub</span><strong>Profil GitHub ↗</strong></a>
+          <a href="https://www.instagram.com/zzzckk07" target="_blank" rel="noreferrer"><span>Instagram</span><strong>@usernameanda ↗</strong></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner"><a class="logo" href="#home">PORTO<span>.</span></a><p>© <span id="year"></span> Dzaki Bledoss. Dibuat dengan HTML, CSS &amp; JavaScript.</p><a href="#home">Kembali ke atas ↑</a></div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
